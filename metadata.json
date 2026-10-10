@@ -1,0 +1,6 @@
+{
+  "name": "LiveSub",
+  "description": "Bắt âm thanh đang phát trên thiết bị, nhận diện giọng nói và dịch phụ đề nổi thời gian thực.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

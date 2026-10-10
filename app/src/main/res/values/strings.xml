@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">LiveSub</string>
+    <string name="app_tagline">Phụ đề &amp; Dịch âm thanh thời gian thực</string>
+
+    <!-- Main Screen -->
+    <string name="tab_home">Trang chủ</string>
+    <string name="tab_models">Mô hình</string>
+    <string name="tab_settings">Cài đặt</string>
+    <string name="tab_history">Lịch sử SRT</string>
+    <string name="tab_help">Hướng dẫn</string>
+
+    <string name="status_idle">Sẵn sàng</string>
+    <string name="status_initializing">Đang khởi động…</string>
+    <string name="status_listening">Đang nghe âm thanh</string>
+    <string name="status_translating">Đang dịch phụ đề</string>
+    <string name="status_paused">Đang tạm dừng</string>
+    <string name="status_silence">Im lặng</string>
+    <string name="status_error">Gặp lỗi</string>
+    <string name="status_downloading">Đang tải mô hình…</string>
+
+    <string name="btn_start_service">Bắt đầu LiveSub</string>
+    <string name="btn_stop_service">Dừng LiveSub</string>
+    <string name="btn_pause">Tạm dừng</string>
+    <string name="btn_resume">Tiếp tục</string>
+    <string name="btn_download">Tải xuống</string>
+    <string name="btn_delete">Xóa</string>
+    <string name="btn_cancel">Hủy</string>
+    <string name="btn_grant">Cấp quyền</string>
+    <string name="btn_close">Đóng</string>
+
+    <!-- Permissions -->
+    <string name="perm_title">Cần cấp quyền để hoạt động</string>
+    <string name="perm_desc">LiveSub cần một số quyền hệ thống để bắt âm thanh đang phát và vẽ cửa sổ nổi phụ đề.</string>
+    <string name="perm_record_audio">Quyền bắt âm thanh (Micro/Audio Record)</string>
+    <string name="perm_overlay">Quyền vẽ trên ứng dụng khác (Cửa sổ nổi)</string>
+    <string name="perm_notification">Quyền thông báo (Điều khiển Service)</string>
+    <string name="perm_projection">Quyền thu nhận âm thanh phát trong máy (MediaProjection)</string>
+    <string name="perm_all_granted">Đã cấp đủ quyền!</string>
+    <string name="perm_request_overlay">Mở cài đặt cấp quyền cửa sổ nổi</string>
+
+    <!-- Notification -->
+    <string name="notif_channel_name">Dịch vụ phụ đề LiveSub</string>
+    <string name="notif_channel_desc">Hiển thị trạng thái hoạt động và điều khiển phụ đề nổi</string>
+    <string name="notif_title_running">LiveSub đang hoạt động</string>
+    <string name="notif_text_running">Đang lắng nghe và tạo phụ đề trực tiếp…</string>
+    <string name="notif_action_pause">Tạm dừng</string>
+    <string name="notif_action_resume">Tiếp tục</string>
+    <string name="notif_action_stop">Dừng</string>
+
+    <!-- Overlay & Controls -->
+    <string name="overlay_placeholder_trans">Bản dịch sẽ hiển thị ở đây…</string>
+    <string name="overlay_placeholder_orig">Âm thanh gốc đang nhận dạng…</string>
+    <string name="overlay_control_title">Tùy chỉnh nhanh</string>
+    <string name="overlay_font_size">Cỡ chữ</string>
+    <string name="overlay_opacity">Độ mờ</string>
+    <string name="overlay_show_original">Hiện câu gốc</string>
+    <string name="overlay_click_through">Xuyên chạm</string>
+
+    <!-- Settings -->
+    <string name="pref_source_lang">Ngôn ngữ nói (Nguồn)</string>
+    <string name="pref_target_lang">Ngôn ngữ dịch (Đích)</string>
+    <string name="pref_font_size">Kích thước chữ phụ đề</string>
+    <string name="pref_bg_opacity">Độ mờ nền cửa sổ nổi</string>
+    <string name="pref_text_color">Màu sắc chữ</string>
+    <string name="pref_max_lines">Số dòng tối đa</string>
+    <string name="pref_show_original">Hiển thị câu gốc kèm theo</string>
+    <string name="pref_translate_partial">Dịch cả kết quả tạm thời (Partial)</string>
+    <string name="pref_translate_partial_sub">Dịch ngay cả khi người nói chưa dứt câu (giới hạn 1 lần/giây để tiết kiệm pin)</string>
+    <string name="pref_vad_sensitivity">Độ nhạy phát hiện tiếng nói (VAD)</string>
+    <string name="pref_vad_sub">Lọc bỏ tiếng ồn và im lặng để tiết kiệm CPU và pin</string>
+    <string name="pref_wifi_only">Chỉ tải mô hình qua Wi-Fi</string>
+    <string name="pref_save_srt">Lưu phụ đề vào file .srt</string>
+    <string name="pref_save_srt_sub">Tự động xuất tệp .srt vào thư mục Tải về (Downloads/LiveSub)</string>
+    <string name="pref_click_through">Chế độ chạm xuyên thấu (Click-through)</string>
+    <string name="pref_click_through_sub">Chạm xuyên qua phụ đề vào video bên dưới mà không bị cản trở</string>
+
+    <!-- Limitations -->
+    <string name="limitations_title">Lưu ý &amp; Giới hạn hệ sinh thái Android</string>
+    <string name="limitations_drm">1. Các ứng dụng có bảo vệ bản quyền DRM (như Netflix, Spotify Premium DRM) hoặc ứng dụng gọi thoại (Zalo, Messenger, Cuộc gọi SIM) hệ thống Android sẽ tự động cấm bắt âm thanh.</string>
+    <string name="limitations_offline">2. LiveSub hoạt động hoàn toàn Offline sau khi tải xong mô hình nhận dạng giọng nói (Vosk) và mô hình dịch (ML Kit).</string>
+    <string name="limitations_accuracy">3. Mô hình Vosk bản nhỏ (khoảng 40MB) ưu tiên tốc độ nhanh và nhẹ máy, độ chính xác ở mức khá. Hãy chọn đúng ngôn ngữ nguồn đang phát.</string>
+</resources>
